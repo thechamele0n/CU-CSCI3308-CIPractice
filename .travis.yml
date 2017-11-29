@@ -1,2 +1,3 @@
-language: C
-script: make
+language: c
+install: make get-deps
+script: make test
